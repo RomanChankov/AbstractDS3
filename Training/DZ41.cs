@@ -89,33 +89,6 @@ namespace InterfacesWPU221
         }
     }
 
-    //class BookStore
-    //{
-    //    Book[] bookArr;
-    //    public BookStore(int size)
-    //    {
-    //        bookArr = new Book[size];
-    //    }
-    //    public int Lenght
-    //    {
-    //        get { return bookArr.Length; }
-    //    }
-    //    public Book this[int index]
-    //    {
-    //        get
-    //        {
-    //            if (index >= 0&&index<bookArr.Length)
-    //            {
-    //            return bookArr[index];
-    //            }
-    //            throw new IndexOutOfRangeException();
-    //        }
-    //        set
-    //        {
-    //            bookArr[index] = value;
-    //        }
-    //    }
-    //}
 
     class Program
     {
@@ -142,27 +115,7 @@ namespace InterfacesWPU221
             bookstore[1]=new Book() {Autor="Толстой",Name=num };
             WriteLine(bookstore[1]);   
 
-            //BookStore book=new BookStore(10);
-            //book[0] = new Book { Autor = "Булгаков", Name = "Мастер и Маргарита" };
-            //book[1] = new Book { Autor = "Гоголь", Name = "Мертвые души" };
-            //book[2] = new Book { Autor = "Пушкин", Name = "Евгений Онегин" };
-
-
-            //Book nameBook = book[3];
-            //WriteLine(nameBook.Name);
-
-            //try
-            //{
-            //    for (int i = 0; i < book.Lenght; i++)
-            //    {
-            //        WriteLine(book[i]);
-            //    }
-            //}
-            //catch (Exception e)
-            //{
-            //    WriteLine(e.Message);
-            //}
-
+            
 
         }
     }
