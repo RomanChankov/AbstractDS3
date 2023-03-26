@@ -51,7 +51,20 @@
     <None Include="Polimorfism.cs" />
     <None Include="Inheritance.cs" />
     <None Include="Methods.cs" />
-    <Compile Include="AbstractDZ3.cs" />
+    <None Include="AbstractDZ3.cs" />
+    <None Include="Overload TRANSFORMATION.cs" />
+    <None Include="OverloadLOGICS.cs" />
+    <None Include="OverloadTRUEFALSE.cs" />
+    <None Include="OverloadCOMPARISON2.cs" />
+    <None Include="OverloadCOMPARISON.cs" />
+    <None Include="OverloadBINAR.cs" />
+    <None Include="OverloadUNAR.cs" />
+    <None Include="DZ41.cs" />
+    <Compile Include="DZ4.cs" />
+    <None Include="DZprosh.cs" />
+    <None Include="OverloadINDEKSATORS.cs" />
+    <None Include="MULTIINDEXATORS.cs" />
+    <None Include="INDEKSATORS.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
